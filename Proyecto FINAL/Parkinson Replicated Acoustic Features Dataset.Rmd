@@ -3,6 +3,8 @@ title: "Análisis del Dataset *Parkinson Replicated Acoustic Features*"
 author: "Elena Barro León, Raúl Bonillo Pulido y Paula Merino Purificacion"
 date: "`r Sys.Date()`"
 output: 
+ github_document:
+  html_preview: false
  html_document:
     toc: true
     toc_float: true #Hace que el índice sea flotante
@@ -949,4 +951,5 @@ En general, esto indica que la selección de métricas sensibles y la considerac
 session <- sessionInfo()
 print(session)
 ```
+
 
